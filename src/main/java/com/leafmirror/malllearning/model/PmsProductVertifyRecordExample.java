@@ -12,7 +12,7 @@ public class PmsProductVertifyRecordExample {
     protected List<Criteria> oredCriteria;
 
     public PmsProductVertifyRecordExample() {
-        oredCriteria = new ArrayList<>();
+        oredCriteria = new ArrayList<Criteria>();
     }
 
     public void setOrderByClause(String orderByClause) {
@@ -69,7 +69,7 @@ public class PmsProductVertifyRecordExample {
 
         protected GeneratedCriteria() {
             super();
-            criteria = new ArrayList<>();
+            criteria = new ArrayList<Criterion>();
         }
 
         public boolean isValid() {
@@ -487,6 +487,7 @@ public class PmsProductVertifyRecordExample {
     }
 
     public static class Criteria extends GeneratedCriteria {
+
         protected Criteria() {
             super();
         }

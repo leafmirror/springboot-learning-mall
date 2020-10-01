@@ -12,7 +12,7 @@ public class UmsGrowthChangeHistoryExample {
     protected List<Criteria> oredCriteria;
 
     public UmsGrowthChangeHistoryExample() {
-        oredCriteria = new ArrayList<>();
+        oredCriteria = new ArrayList<Criteria>();
     }
 
     public void setOrderByClause(String orderByClause) {
@@ -69,7 +69,7 @@ public class UmsGrowthChangeHistoryExample {
 
         protected GeneratedCriteria() {
             super();
-            criteria = new ArrayList<>();
+            criteria = new ArrayList<Criterion>();
         }
 
         public boolean isValid() {
@@ -607,6 +607,7 @@ public class UmsGrowthChangeHistoryExample {
     }
 
     public static class Criteria extends GeneratedCriteria {
+
         protected Criteria() {
             super();
         }

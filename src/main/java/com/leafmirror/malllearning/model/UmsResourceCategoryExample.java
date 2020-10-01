@@ -12,7 +12,7 @@ public class UmsResourceCategoryExample {
     protected List<Criteria> oredCriteria;
 
     public UmsResourceCategoryExample() {
-        oredCriteria = new ArrayList<>();
+        oredCriteria = new ArrayList<Criteria>();
     }
 
     public void setOrderByClause(String orderByClause) {
@@ -69,7 +69,7 @@ public class UmsResourceCategoryExample {
 
         protected GeneratedCriteria() {
             super();
-            criteria = new ArrayList<>();
+            criteria = new ArrayList<Criterion>();
         }
 
         public boolean isValid() {
@@ -357,6 +357,7 @@ public class UmsResourceCategoryExample {
     }
 
     public static class Criteria extends GeneratedCriteria {
+
         protected Criteria() {
             super();
         }

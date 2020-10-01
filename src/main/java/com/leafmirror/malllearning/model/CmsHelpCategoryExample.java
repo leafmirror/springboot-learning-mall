@@ -11,7 +11,7 @@ public class CmsHelpCategoryExample {
     protected List<Criteria> oredCriteria;
 
     public CmsHelpCategoryExample() {
-        oredCriteria = new ArrayList<>();
+        oredCriteria = new ArrayList<Criteria>();
     }
 
     public void setOrderByClause(String orderByClause) {
@@ -68,7 +68,7 @@ public class CmsHelpCategoryExample {
 
         protected GeneratedCriteria() {
             super();
-            criteria = new ArrayList<>();
+            criteria = new ArrayList<Criterion>();
         }
 
         public boolean isValid() {
@@ -486,6 +486,7 @@ public class CmsHelpCategoryExample {
     }
 
     public static class Criteria extends GeneratedCriteria {
+
         protected Criteria() {
             super();
         }

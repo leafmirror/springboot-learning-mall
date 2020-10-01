@@ -11,7 +11,7 @@ public class CmsPrefrenceAreaExample {
     protected List<Criteria> oredCriteria;
 
     public CmsPrefrenceAreaExample() {
-        oredCriteria = new ArrayList<>();
+        oredCriteria = new ArrayList<Criteria>();
     }
 
     public void setOrderByClause(String orderByClause) {
@@ -68,7 +68,7 @@ public class CmsPrefrenceAreaExample {
 
         protected GeneratedCriteria() {
             super();
-            criteria = new ArrayList<>();
+            criteria = new ArrayList<Criterion>();
         }
 
         public boolean isValid() {
@@ -426,6 +426,7 @@ public class CmsPrefrenceAreaExample {
     }
 
     public static class Criteria extends GeneratedCriteria {
+
         protected Criteria() {
             super();
         }

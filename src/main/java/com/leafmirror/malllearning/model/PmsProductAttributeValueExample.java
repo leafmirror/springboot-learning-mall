@@ -11,7 +11,7 @@ public class PmsProductAttributeValueExample {
     protected List<Criteria> oredCriteria;
 
     public PmsProductAttributeValueExample() {
-        oredCriteria = new ArrayList<>();
+        oredCriteria = new ArrayList<Criteria>();
     }
 
     public void setOrderByClause(String orderByClause) {
@@ -68,7 +68,7 @@ public class PmsProductAttributeValueExample {
 
         protected GeneratedCriteria() {
             super();
-            criteria = new ArrayList<>();
+            criteria = new ArrayList<Criterion>();
         }
 
         public boolean isValid() {
@@ -356,6 +356,7 @@ public class PmsProductAttributeValueExample {
     }
 
     public static class Criteria extends GeneratedCriteria {
+
         protected Criteria() {
             super();
         }

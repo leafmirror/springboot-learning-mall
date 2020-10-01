@@ -12,7 +12,7 @@ public class SmsHomeAdvertiseExample {
     protected List<Criteria> oredCriteria;
 
     public SmsHomeAdvertiseExample() {
-        oredCriteria = new ArrayList<>();
+        oredCriteria = new ArrayList<Criteria>();
     }
 
     public void setOrderByClause(String orderByClause) {
@@ -69,7 +69,7 @@ public class SmsHomeAdvertiseExample {
 
         protected GeneratedCriteria() {
             super();
-            criteria = new ArrayList<>();
+            criteria = new ArrayList<Criterion>();
         }
 
         public boolean isValid() {
@@ -867,6 +867,7 @@ public class SmsHomeAdvertiseExample {
     }
 
     public static class Criteria extends GeneratedCriteria {
+
         protected Criteria() {
             super();
         }

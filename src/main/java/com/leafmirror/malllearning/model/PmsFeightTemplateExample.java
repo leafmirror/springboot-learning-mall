@@ -12,7 +12,7 @@ public class PmsFeightTemplateExample {
     protected List<Criteria> oredCriteria;
 
     public PmsFeightTemplateExample() {
-        oredCriteria = new ArrayList<>();
+        oredCriteria = new ArrayList<Criteria>();
     }
 
     public void setOrderByClause(String orderByClause) {
@@ -69,7 +69,7 @@ public class PmsFeightTemplateExample {
 
         protected GeneratedCriteria() {
             super();
-            criteria = new ArrayList<>();
+            criteria = new ArrayList<Criterion>();
         }
 
         public boolean isValid() {
@@ -607,6 +607,7 @@ public class PmsFeightTemplateExample {
     }
 
     public static class Criteria extends GeneratedCriteria {
+
         protected Criteria() {
             super();
         }
