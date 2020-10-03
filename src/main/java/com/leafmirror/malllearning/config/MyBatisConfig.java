@@ -7,6 +7,6 @@ import org.springframework.context.annotation.Configuration;
  * MyBatis配置类
  */
 @Configuration
-@MapperScan("com.leafmirror.malllearning.mapper")
+@MapperScan({"com.leafmirror.malllearning.mapper", "com.leafmirror.malllearning.dao"})
 public class MyBatisConfig {
 }
